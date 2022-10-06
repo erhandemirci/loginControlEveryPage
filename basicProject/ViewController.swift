@@ -9,6 +9,10 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBAction func logoutClicked(_ sender: Any) {
+        UserDefaults.standard.set(false, forKey: "status")
+               Switcher.updateRootVC()
+    }
     @IBOutlet weak var menuButton: UIBarButtonItem!
     override func viewDidLoad() {
         super.viewDidLoad()

@@ -22,6 +22,9 @@
 		AB42FA9F28EDCE0A00990A5E /* secondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB42FA9E28EDCE0A00990A5E /* secondViewController.swift */; };
 		AB42FAA128EDCE2300990A5E /* thirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB42FAA028EDCE2300990A5E /* thirdViewController.swift */; };
 		AB42FAA328EDCF2100990A5E /* thirdNavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB42FAA228EDCF2100990A5E /* thirdNavViewController.swift */; };
+		AB76258528EEAB1600A33718 /* Switcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB76258428EEAB1600A33718 /* Switcher.swift */; };
+		AB76258728EEAC3A00A33718 /* myRevealVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB76258628EEAC3A00A33718 /* myRevealVC.swift */; };
+		AB76258928EEAC7100A33718 /* loginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB76258828EEAC7100A33718 /* loginVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +48,9 @@
 		AB42FA9E28EDCE0A00990A5E /* secondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = secondViewController.swift; path = classes/secondViewController.swift; sourceTree = "<group>"; };
 		AB42FAA028EDCE2300990A5E /* thirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = thirdViewController.swift; path = classes/thirdViewController.swift; sourceTree = "<group>"; };
 		AB42FAA228EDCF2100990A5E /* thirdNavViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thirdNavViewController.swift; sourceTree = "<group>"; };
+		AB76258428EEAB1600A33718 /* Switcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Switcher.swift; sourceTree = "<group>"; };
+		AB76258628EEAC3A00A33718 /* myRevealVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = myRevealVC.swift; path = basicProject/classes/myRevealVC.swift; sourceTree = "<group>"; };
+		AB76258828EEAC7100A33718 /* loginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = loginVC.swift; path = basicProject/classes/loginVC.swift; sourceTree = "<group>"; };
 		E86D884C38CAE2F7819E76AE /* Pods-basicProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-basicProject.release.xcconfig"; path = "Target Support Files/Pods-basicProject/Pods-basicProject.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -72,6 +78,9 @@
 		AB42FA6D28ED9B5F00990A5E = {
 			isa = PBXGroup;
 			children = (
+				AB76258628EEAC3A00A33718 /* myRevealVC.swift */,
+				AB76258828EEAC7100A33718 /* loginVC.swift */,
+				AB76258328EEAAF800A33718 /* helpers */,
 				AB42FA7828ED9B5F00990A5E /* basicProject */,
 				AB42FA7728ED9B5F00990A5E /* Products */,
 				7A0FE60B9CAAE87DCD99B4AD /* Pods */,
@@ -125,6 +134,14 @@
 				AB42FA9828EDB7AA00990A5E /* basicProject-Bridging-Header.h */,
 			);
 			path = reveal;
+			sourceTree = "<group>";
+		};
+		AB76258328EEAAF800A33718 /* helpers */ = {
+			isa = PBXGroup;
+			children = (
+				AB76258428EEAB1600A33718 /* Switcher.swift */,
+			);
+			path = helpers;
 			sourceTree = "<group>";
 		};
 		EFA369D8A932EDBB78E39F25 /* Frameworks */ = {
@@ -253,12 +270,15 @@
 			files = (
 				AB42FA9528EDA61500990A5E /* UtilityService.swift in Sources */,
 				AB42FA7E28ED9B5F00990A5E /* ViewController.swift in Sources */,
+				AB76258528EEAB1600A33718 /* Switcher.swift in Sources */,
 				AB42FAA328EDCF2100990A5E /* thirdNavViewController.swift in Sources */,
 				AB42FA9428EDA61500990A5E /* LocalStorageService.swift in Sources */,
 				AB42FA9B28EDB7AB00990A5E /* SWRevealViewController.m in Sources */,
+				AB76258728EEAC3A00A33718 /* myRevealVC.swift in Sources */,
 				AB42FAA128EDCE2300990A5E /* thirdViewController.swift in Sources */,
 				AB42FA7A28ED9B5F00990A5E /* AppDelegate.swift in Sources */,
 				AB42FA8F28EDA5A000990A5E /* APIService.swift in Sources */,
+				AB76258928EEAC7100A33718 /* loginVC.swift in Sources */,
 				AB42FA9328EDA61500990A5E /* APIError.swift in Sources */,
 				AB42FA9F28EDCE0A00990A5E /* secondViewController.swift in Sources */,
 				AB42FA7C28ED9B5F00990A5E /* SceneDelegate.swift in Sources */,
